@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llista d'alumnes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Llista d'alumnes</h1>
+        <table id="tablaAlumne" class="tabla-alumne">
+            <thead>
+                <tr>
+                    <th>IdAlumne</th>
+                    <th>IdAula</th>
+                    <th>Nom de l'alumne</th>
+                    <th>Cicle</th>
+                    <th>Curs</th>
+                    <th>Grupo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se añadirá dinámicamente el contenido -->
+            </tbody>
+        </table>
+        <button class="back-button" onclick="window.history.back()">Tornar</button>
+    </div>
+
+    <script src="script.js"></script> <!-- Script para cargar los alumnos -->
+</body>
+</html>
