@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", function() {
             data.forEach(alumne => {
                 const row = document.createElement("tr");
 
-                const idCell = document.createElement("td");
-                idCell.textContent = alumne.IdAlumne;
-                row.appendChild(idCell);
+                const nomAluCell = document.createElement("td");
+                nomAluCell.textContent = alumne.NomAlumne;
+                row.appendChild(nomAluCell);
 
                 // Repetir per tots els altres camps restants que retorna l'endpoint
                 _____________________________________________
